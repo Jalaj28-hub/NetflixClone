@@ -3,7 +3,7 @@ import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyA4tuSLBPXbXsPb_Op1aRuRD9NbDS6CFbo",
+  apiKey: process.env.apiKey,
   authDomain: "netflix-clone-1b901.firebaseapp.com",
   projectId: "netflix-clone-1b901",
   storageBucket: "netflix-clone-1b901.appspot.com",
